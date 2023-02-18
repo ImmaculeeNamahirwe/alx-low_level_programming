@@ -1,6 +1,6 @@
 /*
  * File: 5-print_numbers.c
- * Author: Shema Serge
+ * Author: Immaculee Namahirwe
  */
 
 #include <stdio.h>
