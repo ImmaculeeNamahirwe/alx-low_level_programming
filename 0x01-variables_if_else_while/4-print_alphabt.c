@@ -1,6 +1,6 @@
 /*
  * File: 4-print_alphabt.c
- * Author: Shema Serge
+ * Author: Immaculee Namahirwe
  */
 
 #include <stdio.h>
