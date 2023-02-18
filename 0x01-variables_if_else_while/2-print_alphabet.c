@@ -1,6 +1,6 @@
 /*
  * File: 2-print_alphabet.c
- * Author: Shema Serge
+ * Author: Immaculee Namahirwe 
  */
 
 #include <stdio.h>
