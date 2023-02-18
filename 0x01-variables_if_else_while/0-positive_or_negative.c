@@ -1,6 +1,6 @@
 /*
  * File: 0-positive_or_negative.c
- * Author: Shema Serge
+ * Author: Immaculee Namahirwe
  */
 
 #include <stdlib.h>
