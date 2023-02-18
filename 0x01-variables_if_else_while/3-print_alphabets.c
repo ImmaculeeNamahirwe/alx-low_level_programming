@@ -1,6 +1,6 @@
 /*
  * File: 3-print_alphabets.c
- * Author: Shema Serge
+ * Author: Immaculee Namahirwe
  */
 
 #include <stdio.h>
