@@ -1,6 +1,6 @@
 /*
  * File: 7-print_tebahpla.c
- * Author: Shema Serge
+ * Author: Immaculee Namahirwe
  */
 
 #include <stdio.h>
