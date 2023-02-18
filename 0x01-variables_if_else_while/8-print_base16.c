@@ -1,6 +1,6 @@
 /*
  * File: 8-print_base16.c
- * Author: Shema Serge
+ * Author: Immaculee Namahirwe
  */
 
 #include <stdio.h>
