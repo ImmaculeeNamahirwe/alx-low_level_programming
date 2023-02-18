@@ -1,6 +1,6 @@
 /*
  * File: 1-last_digit.c
- * Author: Shema Serge
+ * Author: Immaculee Namahirwe
  */
 
 #include <stdlib.h>
