@@ -1,17 +1,34 @@
-#ifndef _MAIN_H_
-#define _MAIN_H_
+#include "main.h"
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <fcntl.h>
-#include <unistd.h>
+/**
+ * create_file - Creates a file.
+ * @filename: a pointer to the file's name that has to be created.
+ * @text_content: a string pointer that can be written to the file.
+ *
+ * Return: If the function fails - -1.
+ *         If not - 1.
+ */
 
-int _putchar(char c);
-ssize_t read_textfile(const char *filename, size_t letters);
-int create_file(const char *filename, char *text_content);
-int append_text_to_file(const char *filename, char *text_content);
-int _strlen(char *str);
+int create_file(const char *filename, char *text_content)
+{
+	int o, w, len = 0;
 
-#endif
+	if (filename == NULL)
+		return (-1);
+
+	if (text_content != NULL)
+	{
+		for (len = 0; text_content[len];)
+			len++;
+	}
+
+	o = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
+	w = write(o, text_content, len);
+
+	if (o == -1 || w == -1)
+		return (-1);
+
+	close(o);
+
+	return (1);
+}
